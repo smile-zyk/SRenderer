@@ -99,6 +99,7 @@ int Model::loadMaterialTextures(Mesh &mesh, aiMaterial *mat, aiTextureType type)
         Texture texture;
         if(texture.LoadFromImage(path))
         {
+            qDebug() << path;
             textureList.push_back(texture);
             return (int)textureList.size() - 1;
         }
