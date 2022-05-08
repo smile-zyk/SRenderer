@@ -1,0 +1,8 @@
+Package: tbb
+Version: 2020_U3
+Port-Version: 8
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 766a3ca88ef9726c39683692714e1c3abc9d133ebc3bdb5c2780f558a674fbc5
+Description: Intel's Threading Building Blocks.
+Type: Port

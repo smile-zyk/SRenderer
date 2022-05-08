@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+
+exec_prefix=${prefix}/
+libdir=${prefix}/lib
+includedir=${prefix}/../include/include
+
+Name: Assimp
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 5.0.1
+Libs: -L"${libdir}" -lassimp-vc142-mtd
+Libs.private:  
+Cflags: -I"${includedir}"
