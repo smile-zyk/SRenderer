@@ -1,2 +1,3 @@
 # SRenderer
-A Software Rasterization Renderer
+SRenderer is a software rasterization renderer
+
