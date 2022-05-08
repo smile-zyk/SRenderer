@@ -10,7 +10,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd diffuse.jpg
-map_Bump normal.png
-map_Ks specular.jpg
+map_Kd diffuse.png
+map_Ks specular.png
+
 
