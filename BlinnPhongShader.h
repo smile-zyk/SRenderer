@@ -4,7 +4,7 @@
 #include "Texture.h"
 #include "SRendererCoreExport.h"
 
-class SRENDERERCORE_EXPORT BlinnPhongShader : public Shader
+class BlinnPhongShader : public Shader
 {
 public:
     virtual void VertexShader(Vertex &vertex) override;

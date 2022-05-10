@@ -20,8 +20,6 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(SRENDERERCORE_SRC
     src/BasicDataStructure.hpp
-    src/BlinnPhongShader.cpp
-    src/BlinnPhongShader.h
     src/FrameBuffer.cpp
     src/FrameBuffer.h
     src/Shader.hpp

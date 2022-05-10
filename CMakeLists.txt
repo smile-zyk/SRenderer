@@ -31,6 +31,8 @@ set(PROJECT_SOURCES
         SRendererWidget.cpp
         SRendererWidget.h
         SRendererWidget.ui
+        BlinnPhongShader.cpp
+        BlinnPhongShader.h
         About.h
         About.cpp
         About.ui

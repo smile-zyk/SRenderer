@@ -9,7 +9,7 @@
 #include <QColor>
 #include <QString>
 
-class SRENDERERCORE_EXPORT FrameBuffer
+class FrameBuffer
 {
 public:
     FrameBuffer(int _w, int _h);

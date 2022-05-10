@@ -32,7 +32,7 @@ enum RenderMode{FACE,EDGE,VERTEX};
 enum RenderColorType{BACKGROUND, LINE, POINT};
 enum LightColorType{DIFFUSE, SPECULAR, AMBIENT};
 
-struct SRENDERERCORE_EXPORT Vertex
+struct Vertex
 {
     Coord3D worldSpacePos;
     union
@@ -49,7 +49,7 @@ struct SRENDERERCORE_EXPORT Vertex
 using Triangle = std::array<Vertex, 3>;
 using Line = std::array<CoordI2D, 2>;
 
-struct SRENDERERCORE_EXPORT Fragment
+struct Fragment
 {
     Coord3D worldSpacePos;
     CoordI2D screenPos;
