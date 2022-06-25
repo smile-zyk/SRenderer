@@ -25,7 +25,8 @@ SRenderer is a software rasterization renderer
 ![img](https://img2022.cnblogs.com/blog/1754745/202205/1754745-20220509041513760-51626822.gif)
 - switch theme
 ![img](https://img2022.cnblogs.com/blog/1754745/202205/1754745-20220509033444899-807773672.gif)
-....
+...
+>[More information in Zhihu](https://www.zhihu.com/question/24786878/answer/2476658460)
   
 # Third Party
 - [QT 6.2.4](https://www.qt.io/blog/qt-6.2.4-released)(GUI)
