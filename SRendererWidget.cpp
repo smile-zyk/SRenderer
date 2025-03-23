@@ -82,7 +82,7 @@ void SRendererWidget::LoadModel(QString path)
     if(model != nullptr)
         delete model;
     model = newModel;
-    emit SendModelData(model->triangleCount,model->vertexCount);
+    Q_EMIT SendModelData(model->triangleCount,model->vertexCount);
     ResetCamera();
 }
 

@@ -4,7 +4,12 @@ add_subdirectory(SRendererCore/)
 
 project(SRenderer VERSION 0.1 LANGUAGES CXX)
 
-set(assimp_DIR packages/assimp_x64-windows/share/assimp)
+if(WIN32)
+    set(assimp_DIR packages/assimp_x64-windows/share/assimp)
+else()
+    # disable qt keywords, to avoid qt keywords like "emit" conflict with TBB's emit
+    add_definitions(-DQT_NO_KEYWORDS)
+endif()
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 

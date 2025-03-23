@@ -41,3 +41,20 @@ Executable file package for Windows10/64 bit(Qt6 stops supporting Win7 and Win8,
 
 # Build
 you can clone this repository and build with QT6.2.4, windows third party packages is already in this repository.
+
+## Build on Linux
+### Dependencies
+```
+# archlinux:
+sudo pacman -S onetbb assimp qt6
+
+# ubuntu 24.04 LTS:
+sudo apt install qt6-base-dev libtbb-dev libassimp-dev
+```
+
+### Build
+```
+mkdir build
+cmake -B build -S .
+cmake --build ./build --parallel
+```

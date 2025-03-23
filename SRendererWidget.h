@@ -53,9 +53,9 @@ protected:
     void mouseReleaseEvent(QMouseEvent *event) Q_DECL_OVERRIDE;
     void mouseMoveEvent(QMouseEvent* event) Q_DECL_OVERRIDE;
     void wheelEvent(QWheelEvent *event) Q_DECL_OVERRIDE;
-signals:
+Q_SIGNALS:
     void SendModelData(int triangleCount, int vertexCount);
-public slots:
+public Q_SLOTS:
     void Render();
 
 private:

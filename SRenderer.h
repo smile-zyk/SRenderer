@@ -26,7 +26,7 @@ public:
     void SetLightColor(LightColorType type, QColor color);
     void SetCameraPara(CameraPara para, float val);
     void SetLightDir();
-private slots:
+private Q_SLOTS:
     void on_actionLight_triggered();
 
     void on_actionDark_triggered();
